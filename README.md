@@ -24,6 +24,14 @@
 - **Authentication:** Back4App User Management  
 
 ---
+## 📷 Screenshots
+![WhatsApp Image 2025-03-02 at 08 56 24_9262142d](https://github.com/user-attachments/assets/7b5c3244-b64d-4f18-a91f-e228d2d6f3fc)
+![WhatsApp Image 2025-03-02 at 08 56 25_a2349e18](https://github.com/user-attachments/assets/5ae479a1-6971-414e-9082-41a8826cc1d1)
+![WhatsApp Image 2025-03-02 at 08 56 25_db08a27d](https://github.com/user-attachments/assets/caae8e89-9020-47e4-914b-1bb2125a4adb)
+![WhatsApp Image 2025-03-02 at 08 56 25_4815b9e8](https://github.com/user-attachments/assets/4a257d65-7df3-44a2-9226-d0c17de6e02c)
+
+
+---
 
 ## 🔧 Setup & Installation  
 1. Clone the repository:  
