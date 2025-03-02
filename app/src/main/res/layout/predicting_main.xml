@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnPredict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Predict" />
+
+    <TextView
+        android:id="@+id/tvDisease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Disease: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvMedications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Medications: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvPrecautions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Precautions: "
+        android:textSize="16sp" />
+</LinearLayout>

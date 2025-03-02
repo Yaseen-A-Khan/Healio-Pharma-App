@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Scrollable content -->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MEDICINES"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/general_medicines_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="General Medicines"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/general_medicines_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false" />
+
+            <TextView
+                android:id="@+id/prescription_medicines_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prescription Required Medicines"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/prescription_medicines_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Fixed button at the bottom -->
+    <Button
+        android:id="@+id/view_cart_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Cart" />
+
+</LinearLayout>

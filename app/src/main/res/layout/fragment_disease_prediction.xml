@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Predict Disease"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="54dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+
+    <Button
+        android:id="@+id/predictButton"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:text="Predict Disease" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:text="Predicted Disease: "
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/medicationText"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="8dp"
+        android:text="Medications: "
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <!-- Precautions TextView -->
+    <TextView
+        android:id="@+id/precautionText"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_marginBottom="8dp"
+        android:text="Precautions: "
+        android:textAlignment="center"
+        android:textSize="16sp" />
+</LinearLayout>

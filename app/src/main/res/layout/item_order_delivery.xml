@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/order_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/order_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/order_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Items"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/order_total_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount: Rs.0"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/status_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/update_status_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Status"
+        android:visibility="gone" />
+</LinearLayout>

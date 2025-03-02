@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Healio</string>
+    <string-array name="roles_array">
+        <item>Customer</item>
+        <item>Admin</item>
+        <item>Delivery Agent</item>
+    </string-array>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id">SjabzbQNJg8SnSd8wCrSvTlJIwhUVa64uYUOm9tE</string>
+    <string name="back4app_client_key">hucLfwumXnCXQOHWGsn2sOYpE2fmqzeOE8GlzzzE</string>
+
+    <string name="select_symptom">Select Symptom</string>
+    <string name="predict_button">Predict</string>
+    <string name="disease_label">Disease:</string>
+    <string name="medications_label">Medications:</string>
+    <string name="precautions_label">Precautions:</string>
+
+    <string-array name="symptoms_list">
+        <item>fever</item>
+        <item>cough</item>
+        <item>headache</item>
+        <item>sore_throat</item>
+        <item>chills</item>
+        <item>fatigue</item>
+        <item>runny_nose</item>
+        <item>muscle_aches</item>
+        <item>shortness_of_breath</item>
+        <item>nausea</item>
+        <item>vomiting</item>
+        <item>diarrhea</item>
+        <item>abdominal_pain</item>
+        <item>loss_of_appetite</item>
+        <item>loss_of_smell</item>
+        <item>loss_of_taste</item>
+        <item>congestion</item>
+        <item>cough_with_phlegm</item>
+        <item>difficulty_breathing</item>
+        <item>skin_rash</item>
+        <item>swollen_glands</item>
+        <item>bloody_cough</item>
+        <item>chest_pain</item>
+        <item>night_sweats</item>
+    </string-array>
+    <!-- Messages -->
+    <string name="select_all_symptoms">Please select all symptoms</string>
+    <string name="failed_prediction">Failed to get prediction</string>
+    <string name="error_message">Error:</string>
+    <string-array name="order_status_array">
+        <item>Approved</item>
+        <item>Dispatched</item>
+        <item>On Delivery</item>
+        <item>Delivered</item>
+    </string-array>
+
+</resources>
+
+
