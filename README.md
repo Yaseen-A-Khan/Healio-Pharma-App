@@ -46,9 +46,3 @@ We welcome contributions! To contribute:
 
 ---
 
-## 📜 License  
-This project is licensed under the **MIT License**.  
-
----
-
-Let me know if you want to modify anything or add more details! 🚀
