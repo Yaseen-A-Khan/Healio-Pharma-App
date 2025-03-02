@@ -1,6 +1,3 @@
-Here’s a **README.md** for your *Healio Pharma App* based on the details you provided:  
-
----
 
 # 📱 Healio Pharma App  
 
